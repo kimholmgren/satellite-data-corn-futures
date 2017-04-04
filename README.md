@@ -23,7 +23,7 @@ On the left is image from a paper by Max Roser on Land Use in Agriculture from 2
 
 
 beginDownloads.sh - gets the .tif image from Google Earth Engine API - one image from each year in August with the NDVI filter applied
-FuturesData - creates a class that gets data from the USCornFutures spreadsheet and puts it into an object
+FuturesData - creates a class that gets data from the USCornFutures spreadsheet and puts it into an object. Source for data is https://www.investing.com/commodities/us-corn-historical-data
 WeatherData - creates a class that gets data from the DarkSky API between a set start and end date over the summer and puts it into an object
 SatelliteData - picks a location and date and gets one image per year using the NDVI filter (this calls beginDownloads.sh)
 
