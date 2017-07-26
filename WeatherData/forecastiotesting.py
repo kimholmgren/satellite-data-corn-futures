@@ -1,7 +1,7 @@
 import forecastio
 import datetime as dt
 
-api_key='e20dd4c7c92174bdca8d22b226e0bc6d'
+api_key='REMOVEDFORGITHUB'
 
 lat =39.0119
 lng = 98.4842
