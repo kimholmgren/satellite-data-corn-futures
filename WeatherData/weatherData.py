@@ -13,7 +13,7 @@ class weatherData :
     self.lat = lat
     self.long = lng
     self.data = {}
-    self.api_key='e20dd4c7c92174bdca8d22b226e0bc6d'
+    self.api_key='REMOVED'
     for yr in range(stopDate.year-startDate.year):
       n = startDate.year + yr
       print("Collecting weather data for the year "+str(n)+" between "+str(startDate)+" and "+str(stopDate)+".")
